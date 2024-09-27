@@ -1,2 +1,2 @@
 # communitysciencemuseum-semesterproject01
-Semester Project 01 
+HTML and CSS Semester Project 01 
