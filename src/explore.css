@@ -1,0 +1,172 @@
+/* General styles */
+body {
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f59d08;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 10px 10px;
+  border-bottom: Opx solid #f59d08;
+}
+
+.logo img {
+  max-height: 200px;
+}
+
+.nav-menu ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+.nav-menu li {
+  margin-right: 10px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #000;
+  font-weight: bold;
+  display: block;
+}
+
+.home {
+  background-color: #db5b2a;
+}
+
+.explore {
+  background-color: #f59d08;
+}
+
+.contributions {
+  background-color: #32a768;
+}
+
+.exhibitions {
+  background-color: #0887c7;
+}
+
+.contact-us {
+  background-color: #f88bad;
+}
+
+.nav-menu a:hover {
+  opacity: 0.8;
+}
+
+.explore-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.explore-card {
+  background-color: #f59d08;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #f59d08;
+  flex: 1 1 calc(30% - 40px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  height: 75%;
+}
+
+.explore-card img {
+  width: 1000px;
+  height: auto;
+}
+.explore-card h2 {
+  color: white;
+  font-size: 3em;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: "Adigiana Ultra", sans-serif;
+}
+.mailing-list {
+  background-color: #f4f4f4;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.mailing-list h2 {
+  margin-bottom: 20px;
+}
+
+.mailing-list form {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.mailing-list input[type="email"] {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.mailing-list button {
+  padding: 10px 20px;
+  background-color: #ffc107;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.mailing-list button:hover {
+  background-color: #ffa000;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.social-media a img {
+  width: 80px;
+}
+
+footer {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 100px;
+  text-align: center;
+  background-color: #f5e4c3;
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-links {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 250px;
+  text-align: center;
+  background-color: #f5e4c3;
+  color: black;
+  padding: 10px;
+}
+
+footer .policy-links a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+footer .policy-links a:hover {
+  text-decoration: underline;
+}

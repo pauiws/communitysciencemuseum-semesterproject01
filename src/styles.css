@@ -1,0 +1,213 @@
+/* General styles */
+body {
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 3px 0 0 0;
+  margin: 5px;
+  border-bottom: 0px solid #ddd;
+}
+
+.logo img {
+  max-height: 200px;
+}
+
+.nav-menu ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+.nav-menu li {
+  margin-right: 10px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #000;
+  font-weight: bold;
+  display: block;
+}
+
+.banner img {
+  width: 1510px;
+  height: auto;
+}
+
+.home {
+  background-color: #db5b2a;
+}
+
+.explore {
+  background-color: #f59d08;
+}
+
+.contributions {
+  background-color: #32a768;
+}
+
+.exhibitions {
+  background-color: #0887c7;
+}
+
+.contact-us {
+  background-color: #f88bad;
+}
+
+.nav-menu a:hover {
+  opacity: 0.8;
+}
+
+.banner {
+  width: 500px;
+  display: block;
+}
+.hero {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr;
+  column-gap: 10px;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.hero-text h2 {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #ffc107;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #ffa000;
+}
+
+.about {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.content {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  text-align: center;
+}
+
+.about .icon {
+  width: 400px;
+  margin-bottom: 0px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto;
+  column-gap: 5px;
+}
+
+.about p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.mailing-list {
+  background-color: #f4f4f4;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.mailing-list h2 {
+  margin-bottom: 20px;
+}
+
+.mailing-list form {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.mailing-list input[type="email"] {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.mailing-list button {
+  padding: 10px 20px;
+  background-color: #ffc107;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.mailing-list button:hover {
+  background-color: #ffa000;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.social-media a img {
+  width: 80px;
+}
+
+footer {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 100px;
+  text-align: center;
+  background-color: #f5e4c3;
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-links {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 250px;
+  text-align: center;
+  background-color: #f5e4c3;
+  color: black;
+  padding: 10px;
+}
+
+footer .policy-links a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+footer .policy-links a:hover {
+  text-decoration: underline;
+}
